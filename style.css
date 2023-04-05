@@ -1,27 +1,15 @@
-
-.div-1 {
-    background-color: aquamarine;
+.parent-1 > p {
+    color: red;
 }
 
-.div-1 .div1p1 {
-    color: aliceblue;
+.test2 + p {
+    color: green;
 }
 
-.div-1 p {
-    color: blue;
+p[id] {
+    color: aqua;
 }
 
-.div-1 ul {
-    color:chocolate
-}
-
-.test1.test2 {
-background-color: black;
-color: yellow;
-font-size: 20px;
-}
-
-.p1, .p2, .p3 {
-    background-color: cornflowerblue;
-    color: aquamarine;
+p[class="class1"] {
+    color: violet;
 }
